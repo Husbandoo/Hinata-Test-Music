@@ -74,7 +74,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📣Updates", url=f"{SUPPORT_CHANNEL}"
+                    text="📣 Updates", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
