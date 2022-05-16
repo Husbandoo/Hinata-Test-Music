@@ -11,8 +11,8 @@ load_dotenv()
 # After, you are logged in click on API Development Tools.
 # Enter Anything as App name and App short name, Enter my.telegram.org in url section
 # That’s it, You”ll get your API_ID and API_HASH
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "10784516"))
+API_HASH = getenv("API_HASH", "abaa5f43742e548f1b1c0c934ad36beb")
 
 # Assistant Prefix needed to trigger your assistant accounts in User mode to execute your command. This can be only set as one Symbol (Special Character)
 # Example:- . or , or ! or * etc etc
@@ -23,11 +23,11 @@ ASSISTANT_PREFIX = list(getenv("ASSISTANT_PREFIX", ".").split())
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10"))
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5359296864:AAGfbRE9b5nuGnDGGRkxbzI1MNdopdTYn4c")
 
 ## MONGO DB
 # HOW TO GEN :-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Husbando:Husbando@husbando.y1ino.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 
 ## PRIVATE START MESSAGE.. IMAGE
@@ -71,21 +71,21 @@ else:
 
 # Remember to add your Music Bot , Assistant Accounts and Logger Id in Group and Promote them Admin with Full Rights.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001720661505"))
 
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Hinata Music Bot")
 
 ## Bot SUDO USERS AND DEVS
 
 # Sudo Users ID(not username) for Bot. (For multiple users seperate IDs with space)
 # Input type must be interger.
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5132611794").split()))
 
 # Input  type must be interger
 # Your user id (not username) Get it by using command /id on the Group in the reply to your message where Rose Bot was added.
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split())) + [5003514838]
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1938491135").split())) + [5003514838]
 
 ## String Session Vars ...
 # You'll need a Pyrogram String Session for these vars.
@@ -98,7 +98,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "").split())) + [5003514838]
 if str(getenv("STRING_SESSION1")).strip() == "":
     STRING1 = str(None)
 else:
-    STRING1 = str(getenv("STRING_SESSION1"))
+    STRING1 = str(getenv("STRING_SESSION1", "AQCEFmwksOEGCAztIU7Ae5lWBcNRYFSUry5F5Uwfm6Cig445-HkLoHwE-4nZrLaqRg0S8VxqCemzCdcpJcO2XSH_9VrkBD5ZI2KSq-YpYi4NtbjCyPRkQ2xZer_qynkVddqh4rjABGEEW4zS3v_vzu38HORDX-2tWWidTgYdLgqhqEP_WHZn-bDcCdg_2tHwQ6I5EIB8vUdptajypAi2g1qnGljJEon_MAHEQZR0DjMVc9pN8N06rEDKoVxv-9wkAeAwVoZ-L03OB9HCAVZTn6z_TcGpUEbSnB8ivixRgSIFiDJm3ARL9hdW6rkXNWQa19qFAHF-s-Y6lZnWYjjB0DrgAAAAAT3v8EkA"))
 
 if str(getenv("STRING_SESSION2")).strip() == "":
     STRING2 = str(None)
@@ -123,7 +123,7 @@ else:
 if str(getenv("LOG_SESSION")).strip() == "":
     LOG_SESSION = str(None)
 else:
-    LOG_SESSION = str(getenv("LOG_SESSION"))
+    LOG_SESSION = str(getenv("LOG_SESSION", "AQCEFmwksOEGCAztIU7Ae5lWBcNRYFSUry5F5Uwfm6Cig445-HkLoHwE-4nZrLaqRg0S8VxqCemzCdcpJcO2XSH_9VrkBD5ZI2KSq-YpYi4NtbjCyPRkQ2xZer_qynkVddqh4rjABGEEW4zS3v_vzu38HORDX-2tWWidTgYdLgqhqEP_WHZn-bDcCdg_2tHwQ6I5EIB8vUdptajypAi2g1qnGljJEon_MAHEQZR0DjMVc9pN8N06rEDKoVxv-9wkAeAwVoZ-L03OB9HCAVZTn6z_TcGpUEbSnB8ivixRgSIFiDJm3ARL9hdW6rkXNWQa19qFAHF-s-Y6lZnWYjjB0DrgAAAAAT3v8EkA"))
 
 
 ## Dont Change
