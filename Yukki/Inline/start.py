@@ -55,7 +55,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="🦊 OWNER 🦊", url=f"{SUPPORT_GROUP}"
+                    text="🦊 OWNER", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -74,7 +74,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="🍃 Network 🍃", url=f"{SUPPORT_CHANNEL}"
+                    text="📣Updates", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -136,7 +136,7 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    text="🦊 Owner 🦊", url=f"{SUPPORT_GROUP}"
+                    text="🦊 Owner", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -157,7 +157,7 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    text="🍃 Network 🍃", url=f"{SUPPORT_CHANNEL}"
+                    text="📣 Updates", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -178,10 +178,10 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    text="🍃 Network 🍃", url=f"{SUPPORT_CHANNEL}"
+                    text="📣 Updates", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="🦊 Owner 🦊", url=f"{SUPPORT_GROUP}"
+                    text="🦊 Owner", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
