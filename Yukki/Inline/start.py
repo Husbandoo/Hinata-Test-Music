@@ -55,7 +55,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="⚙ Support ⚙", url=f"(NexusXSupport)"
+                    text="⚙ Support ⚙", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -74,7 +74,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📢 Updates 📢", url=f"(TeamNexusX)"
+                    text="📢 Updates 📢", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -93,10 +93,10 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{TeamNexusX}"
+                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{NexusXSupport}"
+                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -115,7 +115,7 @@ def private_panel():
             [
                 InlineKeyboardButton(
                     "➕ Add me to your Group",
-                    url=f"https://t.me/HinataProMusicBot?startgroup=true",
+                    url=f"https://t.me/{BOT_NAME}?startgroup=true",
                 )
             ],
         ]
@@ -131,12 +131,12 @@ def private_panel():
             [
                 InlineKeyboardButton(
                     "➕ Add me to your Group",
-                    url=f"https://t.me/HinataProMusicBot?startgroup=true",
+                    url=f"https://t.me/{BOT_NAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="⚙ Support ⚙", url=f"{NexusXSupport}"
+                    text="⚙ Support ⚙", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -152,12 +152,12 @@ def private_panel():
             [
                 InlineKeyboardButton(
                     "➕ Add me to your Group ➕",
-                    url=f"https://t.me/HinataProMusicBot?startgroup=true",
+                    url=f"https://t.me/{BOT_NAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📢 Updates 📢", url=f"{TeamNexusX}"
+                    text="📢 Updates 📢", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -173,7 +173,7 @@ def private_panel():
             [
                 InlineKeyboardButton(
                     "➕ Add me to your Group ➕",
-                    url=f"https://t.me/HinataProMusicBot?startgroup=true",
+                    url=f"https://t.me/{BOT_NAME}?startgroup=true",
                 )
             ],
             [
