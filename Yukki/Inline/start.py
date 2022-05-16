@@ -31,7 +31,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="🗂 Helper Commands Menu 🗂", callback_data="shikhar"
                 ),
             ],
             [
@@ -45,7 +45,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="🗂 Helper Commands Menu 🗂", callback_data="shikhar"
                 ),
             ],
             [
@@ -55,7 +55,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="🦊 OWNER 🦊", url=f"{SUPPORT_GROUP}"
+                    text="⚙ Support ⚙", url=f"(NexusXSupport)"
                 ),
             ],
         ]
@@ -64,7 +64,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="🗂 Helper Commands Menu 🗂", callback_data="shikhar"
                 ),
             ],
             [
@@ -74,7 +74,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="🍃 Network 🍃", url=f"{SUPPORT_CHANNEL}"
+                    text="📢 Updates 📢", url=f"(TeamNexusX)"
                 ),
             ],
         ]
@@ -83,7 +83,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="🗂 Helper Commands Menu 🗂", callback_data="shikhar"
                 ),
             ],
             [
@@ -93,10 +93,10 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="📨Official Channel", url=f"{TeamNexusX}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="📨Support Group", url=f"{NexusXSupport}"
                 ),
             ],
         ]
@@ -108,14 +108,14 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu",
+                    text="🗂 Helper Commands Menu 🗂",
                     callback_data="search_helper_mess",
                 ),
             ],
             [
                 InlineKeyboardButton(
                     "➕ Add me to your Group",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                    url=f"https://t.me/HinataProMusicBot?startgroup=true",
                 )
             ],
         ]
@@ -124,19 +124,19 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu",
+                    text="🗂 Helper Commands Menu 🗂",
                     callback_data="search_helper_mess",
                 ),
             ],
             [
                 InlineKeyboardButton(
                     "➕ Add me to your Group",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                    url=f"https://t.me/HinataProMusicBot?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="🦊 Owner 🦊", url=f"{SUPPORT_GROUP}"
+                    text="⚙ Support ⚙", url=f"{NexusXSupport}"
                 ),
             ],
         ]
@@ -145,19 +145,19 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu",
+                    text="🗂 Helper Commands Menu 🗂",
                     callback_data="search_helper_mess",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Add me to your Group",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                    "➕ Add me to your Group ➕",
+                    url=f"https://t.me/HinataProMusicBot?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="🍃 Network 🍃", url=f"{SUPPORT_CHANNEL}"
+                    text="📢 Updates 📢", url=f"{TeamNexusX}"
                 ),
             ],
         ]
@@ -166,22 +166,22 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu",
+                    text="🗂 Helper Commands Menu 🗂",
                     callback_data="search_helper_mess",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Add me to your Group",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                    "➕ Add me to your Group ➕",
+                    url=f"https://t.me/HinataProMusicBot?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="🍃 Network 🍃", url=f"{SUPPORT_CHANNEL}"
+                    text="⚙ Support ⚙", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="🦊 Owner 🦊", url=f"{SUPPORT_GROUP}"
+                    text="📢 Updates 📢", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
