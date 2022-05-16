@@ -15,17 +15,17 @@
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "10784516",
       "required": true
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "abaa5f43742e548f1b1c0c934ad36beb",
       "required": true
     },
     "BOT_TOKEN": {
       "description": "A Bot's token from Botfather",
-      "value": "",
+      "value": "5359296864:AAGfbRE9b5nuGnDGGRkxbzI1MNdopdTYn4c",
       "required": true
     },
     "DURATION_LIMIT": {
@@ -40,12 +40,12 @@
     },
     "MONGO_DB_URI": {
       "description": "Mongo DB URL",
-      "value": "",
+      "value": "mongodb+srv://Husbando:Husbando@husbando.y1ino.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
       "required": true
     },
     "MUSIC_BOT_NAME": {
       "description": "A name for your Music Bot.",
-      "value": "",
+      "value": "Hinata Music Bot",
       "required": true
     },
     "SUPPORT_CHANNEL": {
@@ -60,7 +60,7 @@
     },
     "OWNER_ID": {
       "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-      "value": "",
+      "value": "1938491135",
       "required": true
     },
     "START_IMG_URL": {
@@ -70,7 +70,7 @@
     },
     "STRING_SESSION1": {
       "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-      "value": "",
+      "value": "AQCEFmwksOEGCAztIU7Ae5lWBcNRYFSUry5F5Uwfm6Cig445-HkLoHwE-4nZrLaqRg0S8VxqCemzCdcpJcO2XSH_9VrkBD5ZI2KSq-YpYi4NtbjCyPRkQ2xZer_qynkVddqh4rjABGEEW4zS3v_vzu38HORDX-2tWWidTgYdLgqhqEP_WHZn-bDcCdg_2tHwQ6I5EIB8vUdptajypAi2g1qnGljJEon_MAHEQZR0DjMVc9pN8N06rEDKoVxv-9wkAeAwVoZ-L03OB9HCAVZTn6z_TcGpUEbSnB8ivixRgSIFiDJm3ARL9hdW6rkXNWQa19qFAHF-s-Y6lZnWYjjB0DrgAAAAAT3v8EkA",
       "required": true
     },
     "STRING_SESSION2": {
@@ -105,17 +105,17 @@
     },
     "LOG_GROUP_ID": {
       "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-      "value": "",
+      "value": "-1001720661505",
       "required": true
     },
     "SUDO_USERS": {
       "description": "The user id(s) of user(s) whom you would like to add as a SUDO. Multiple values shall be seperated with a space.",
-      "value": "",
+      "value": "5132611794",
       "required": true
     },
     "LOG_SESSION": {
       "description": "A Pyrogram String Session for LOGGING or u can also add STRING_SESSION1 Also.",
-      "value": "",
+      "value": "AQCEFmwksOEGCAztIU7Ae5lWBcNRYFSUry5F5Uwfm6Cig445-HkLoHwE-4nZrLaqRg0S8VxqCemzCdcpJcO2XSH_9VrkBD5ZI2KSq-YpYi4NtbjCyPRkQ2xZer_qynkVddqh4rjABGEEW4zS3v_vzu38HORDX-2tWWidTgYdLgqhqEP_WHZn-bDcCdg_2tHwQ6I5EIB8vUdptajypAi2g1qnGljJEon_MAHEQZR0DjMVc9pN8N06rEDKoVxv-9wkAeAwVoZ-L03OB9HCAVZTn6z_TcGpUEbSnB8ivixRgSIFiDJm3ARL9hdW6rkXNWQa19qFAHF-s-Y6lZnWYjjB0DrgAAAAAT3v8EkA",
       "required": true
     },
     "UPSTREAM_REPO": {
